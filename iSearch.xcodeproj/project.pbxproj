@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1410CDB8BBB457BD915659A4 /* Pods_iSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3221EB4880EA05B0BC285D6 /* Pods_iSearch.framework */; };
 		7CC7A3B521D9E529002B8A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3B421D9E529002B8A4A /* AppDelegate.swift */; };
 		7CC7A3B721D9E529002B8A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3B621D9E529002B8A4A /* ViewController.swift */; };
 		7CC7A3BA21D9E529002B8A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7A3B821D9E529002B8A4A /* Main.storyboard */; };
 		7CC7A3BC21D9E532002B8A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7A3BB21D9E532002B8A4A /* Assets.xcassets */; };
 		7CC7A3BF21D9E532002B8A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7A3BD21D9E532002B8A4A /* LaunchScreen.storyboard */; };
+		7CC7A3C821D9EA1D002B8A4A /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3C721D9EA1D002B8A4A /* APIUtils.swift */; };
+		7CC7A3CD21DA03ED002B8A4A /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3CB21DA03ED002B8A4A /* BaseModel.swift */; };
+		7CC7A3CE21DA03ED002B8A4A /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3CC21DA03ED002B8A4A /* Items.swift */; };
+		7CC7A3D221DA19EC002B8A4A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3D021DA19EC002B8A4A /* UserTableViewCell.swift */; };
+		7CC7A3D321DA19EC002B8A4A /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7A3D121DA19EC002B8A4A /* UserTableViewCell.xib */; };
+		7CC7A3D521DA4316002B8A4A /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3D421DA4316002B8A4A /* UserDetailsView.swift */; };
+		7CC7A3D821DA483C002B8A4A /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7A3D721DA483C002B8A4A /* UserDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B11AF415032D9E61F978E63 /* Pods-iSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSearch/Pods-iSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		7CC7A3B121D9E529002B8A4A /* iSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC7A3B421D9E529002B8A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CC7A3B621D9E529002B8A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		7CC7A3BB21D9E532002B8A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CC7A3BE21D9E532002B8A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CC7A3C021D9E532002B8A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC7A3C721D9EA1D002B8A4A /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
+		7CC7A3CB21DA03ED002B8A4A /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		7CC7A3CC21DA03ED002B8A4A /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		7CC7A3D021DA19EC002B8A4A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		7CC7A3D121DA19EC002B8A4A /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		7CC7A3D421DA4316002B8A4A /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		7CC7A3D721DA483C002B8A4A /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		C250F5164C7FFF4F435A2D5A /* Pods-iSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSearch/Pods-iSearch.release.xcconfig"; sourceTree = "<group>"; };
+		F3221EB4880EA05B0BC285D6 /* Pods_iSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1410CDB8BBB457BD915659A4 /* Pods_iSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				7CC7A3B321D9E529002B8A4A /* iSearch */,
 				7CC7A3B221D9E529002B8A4A /* Products */,
+				BBDCA80772C2682C1983D765 /* Pods */,
+				9FBA53D18AEF2E8E0EE7A3F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,70 @@
 		7CC7A3B321D9E529002B8A4A /* iSearch */ = {
 			isa = PBXGroup;
 			children = (
-				7CC7A3B421D9E529002B8A4A /* AppDelegate.swift */,
-				7CC7A3B621D9E529002B8A4A /* ViewController.swift */,
-				7CC7A3B821D9E529002B8A4A /* Main.storyboard */,
+				7CC7A3D621DA4813002B8A4A /* Controllers */,
+				7CC7A3CF21DA19D0002B8A4A /* View */,
+				7CC7A3CA21DA03B4002B8A4A /* Model */,
+				7CC7A3C621D9EA05002B8A4A /* Network */,
 				7CC7A3BB21D9E532002B8A4A /* Assets.xcassets */,
 				7CC7A3BD21D9E532002B8A4A /* LaunchScreen.storyboard */,
 				7CC7A3C021D9E532002B8A4A /* Info.plist */,
 			);
 			path = iSearch;
+			sourceTree = "<group>";
+		};
+		7CC7A3C621D9EA05002B8A4A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7A3C721D9EA1D002B8A4A /* APIUtils.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7CC7A3CA21DA03B4002B8A4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7A3CB21DA03ED002B8A4A /* BaseModel.swift */,
+				7CC7A3CC21DA03ED002B8A4A /* Items.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CC7A3CF21DA19D0002B8A4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7A3D021DA19EC002B8A4A /* UserTableViewCell.swift */,
+				7CC7A3D121DA19EC002B8A4A /* UserTableViewCell.xib */,
+				7CC7A3D421DA4316002B8A4A /* UserDetailsView.swift */,
+				7CC7A3B821D9E529002B8A4A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7CC7A3D621DA4813002B8A4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7A3B421D9E529002B8A4A /* AppDelegate.swift */,
+				7CC7A3B621D9E529002B8A4A /* ViewController.swift */,
+				7CC7A3D721DA483C002B8A4A /* UserDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9FBA53D18AEF2E8E0EE7A3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3221EB4880EA05B0BC285D6 /* Pods_iSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBDCA80772C2682C1983D765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B11AF415032D9E61F978E63 /* Pods-iSearch.debug.xcconfig */,
+				C250F5164C7FFF4F435A2D5A /* Pods-iSearch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CC7A3C321D9E532002B8A4A /* Build configuration list for PBXNativeTarget "iSearch" */;
 			buildPhases = (
+				F6BEEB2529E5662A8D9EFA9E /* [CP] Check Pods Manifest.lock */,
 				7CC7A3AD21D9E529002B8A4A /* Sources */,
 				7CC7A3AE21D9E529002B8A4A /* Frameworks */,
 				7CC7A3AF21D9E529002B8A4A /* Resources */,
+				DE99138C8D4C074BB4D17889 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC7A3D321DA19EC002B8A4A /* UserTableViewCell.xib in Resources */,
 				7CC7A3BF21D9E532002B8A4A /* LaunchScreen.storyboard in Resources */,
 				7CC7A3BC21D9E532002B8A4A /* Assets.xcassets in Resources */,
 				7CC7A3BA21D9E529002B8A4A /* Main.storyboard in Resources */,
@@ -130,12 +210,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DE99138C8D4C074BB4D17889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iSearch/Pods-iSearch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSearch/Pods-iSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BEEB2529E5662A8D9EFA9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CC7A3AD21D9E529002B8A4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC7A3D521DA4316002B8A4A /* UserDetailsView.swift in Sources */,
+				7CC7A3C821D9EA1D002B8A4A /* APIUtils.swift in Sources */,
+				7CC7A3CE21DA03ED002B8A4A /* Items.swift in Sources */,
 				7CC7A3B721D9E529002B8A4A /* ViewController.swift in Sources */,
+				7CC7A3CD21DA03ED002B8A4A /* BaseModel.swift in Sources */,
+				7CC7A3D221DA19EC002B8A4A /* UserTableViewCell.swift in Sources */,
+				7CC7A3D821DA483C002B8A4A /* UserDetailsViewController.swift in Sources */,
 				7CC7A3B521D9E529002B8A4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,15 +415,18 @@
 		};
 		7CC7A3C421D9E532002B8A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B11AF415032D9E61F978E63 /* Pods-iSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = iSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.iSearch.iSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.mobisoft.DemoApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +435,18 @@
 		};
 		7CC7A3C521D9E532002B8A4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C250F5164C7FFF4F435A2D5A /* Pods-iSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = iSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.iSearch.iSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.mobisoft.DemoApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

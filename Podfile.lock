@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.8.0)
+  - DropDown (2.3.12)
+  - KRActivityIndicatorView (3.0.0)
+  - KRProgressHUD (3.4.0):
+    - KRActivityIndicatorView (= 3.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - KRProgressHUD
+  - SDWebImage
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - SDWebImage
+    - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  KRActivityIndicatorView: c414000730a6f4969eeb354bee4f2aebc89c2c2e
+  KRProgressHUD: 79c8703f82179fe34b3602f10b30726f887983fa
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 67c84a07c038ba11cb291a88aef2848dee55aa38
+
+COCOAPODS: 1.5.3
